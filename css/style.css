@@ -2,3 +2,10 @@ header {
     color: #333333;
     background-color: #2266ff
 }
+//body, ul, ol {
+// this represents selecting body and ul and ol; these are selectors;
+// color: #333333; this represents a property
+//}
+//body ul ol { 
+//   this represents an ordered operation "if an ol is inside a ul inside a body, then apply code"
+//  }
