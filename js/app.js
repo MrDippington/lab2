@@ -1,5 +1,5 @@
 'use strict';
-var dogs = prompt('How many dogs do I own');
+/*var dogs = prompt('How many dogs do I own');
 
 console.log('Number of dogs, ' dogs);
 
@@ -9,4 +9,44 @@ var guitars = prompt('How many guitars do you have?');
 
 if (guitars === '1') || (guitars === '2') {
   alert('Yes, I have ' + guitars + ' guitars!');
-} 
+} */
+var name = prompt('Hello! Thanks for visiting! What is your name, please?');
+console.log(name);
+
+var waNative = prompt('Hi, ' + name + '! Lets play a guessing game. Do you think I am a Washington native?').toUpperCase();
+console.log(waNative); 
+if (waNative === 'Y' || waNative === 'YES') {
+  alert('That is correct, ' + name + '!');
+} else {
+  alert('Actually, ' + name + ', I grew up in Washington!');
+}
+
+var catDog = prompt('Are cats my favorite?');
+console.log(catDog);
+if (catDog === 'Y') {
+  alert('You know, ' + name + ', I love cats, but dogs are my favorite!');
+} else {
+  alert('You know, ' + name + ', I would have to say dogs are my favorite.');
+}
+var greatBritish = prompt('Do I like the Great British Baking Show?');
+console.log(greatBritish);
+if (greatBritish === 'Y') {
+  alert('Yep, most definitely!');
+} else {
+  alert('What?! You mean nothing to me.');
+}
+var iceCream = prompt('Do I consider Phish Food to be the best Ben & Jerry\'s flavor?');
+console.log(iceCream);
+if (iceCream === 'Y') {
+  alert('Its delicious, but no! Americone Dream!');
+} else {
+  alert('Correct! My favorite is Americone Dream.');
+}
+var germany = prompt('Have I ever been to Germany?');
+console.log(germany);
+if (germany === 'Y') {
+  alert('Yes! Munich! It\'s such a beautiful city!');
+} else {
+  alert('Actually, yes, I have! Munich is amazing!');
+}
+
