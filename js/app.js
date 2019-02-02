@@ -15,6 +15,8 @@ console.log(name);
 
 var waNative = prompt('Hi, ' + name + '! Lets play a guessing game. Do you think I am a Washington native?').toUpperCase();
 console.log(waNative); 
+
+
 if (waNative === 'Y' || waNative === 'YES') {
   alert('That is correct, ' + name + '!');
 } else {
