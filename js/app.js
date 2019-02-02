@@ -17,38 +17,37 @@ var waNative = prompt('Hi, ' + name + '! Lets play a guessing game. Do you think
 console.log(waNative); 
 
 
-if (waNative === 'Y' || waNative === 'YES') {
+if (waNative === 'Y' || waNative === 'YES' || waNative === 'Yes') {
   alert('That is correct, ' + name + '!');
 } else {
   alert('Actually, ' + name + ', I grew up in Washington!');
 }
 
-var catDog = prompt('Are cats my favorite?');
+var catDog = prompt('Are cats my favorite?').toUpperCase();
 console.log(catDog);
-if (catDog === 'Y') {
+if (catDog === 'Y' || catDog === 'YES' || waNative === 'Yes') {
   alert('You know, ' + name + ', I love cats, but dogs are my favorite!');
 } else {
   alert('You know, ' + name + ', I would have to say dogs are my favorite.');
 }
-var greatBritish = prompt('Do I like the Great British Baking Show?');
+var greatBritish = prompt('Do I like the Great British Baking Show?').toUpperCase;
 console.log(greatBritish);
-if (greatBritish === 'Y') {
+if (greatBritish === 'Y' || greatBritish === 'YES' || greatBritish === 'Yes') {
   alert('Yep, most definitely!');
 } else {
   alert('What?! You mean nothing to me.');
 }
-var iceCream = prompt('Do I consider Phish Food to be the best Ben & Jerry\'s flavor?');
+var iceCream = prompt('Do I consider Phish Food to be the best Ben & Jerry\'s flavor?').toUpperCase();
 console.log(iceCream);
-if (iceCream === 'Y') {
+if (iceCream === 'Y' || iceCream === 'YES' || iceCream === 'Yes') {
   alert('Its delicious, but no! Americone Dream!');
 } else {
   alert('Correct! My favorite is Americone Dream.');
-}
-var germany = prompt('Have I ever been to Germany?');
+
+var germany = prompt('Have I ever been to Germany?').toUpperCase();
 console.log(germany);
-if (germany === 'Y') {
+if (germany === 'Y' || germany === 'YES' || germany === 'Yes') {
   alert('Yes! Munich! It\'s such a beautiful city!');
 } else {
   alert('Actually, yes, I have! Munich is amazing!');
 }
-
