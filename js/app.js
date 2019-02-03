@@ -10,7 +10,10 @@ var guitars = prompt('How many guitars do you have?');
 if (guitars === '1') || (guitars === '2') {
   alert('Yes, I have ' + guitars + ' guitars!');
 } */
-var name = prompt('Hello! Thanks for visiting! What is your name, please?');
+
+
+
+/*var name = prompt('Hello! Thanks for visiting! What is your name, please?');
 console.log(name);
 
 var waNative = prompt('Hi, ' + name + '! Lets play a guessing game. Do you think I am a Washington native?').toUpperCase();
@@ -43,11 +46,43 @@ if (iceCream === 'Y' || iceCream === 'YES' || iceCream === 'Yes') {
   alert('Its delicious, but no! Americone Dream!');
 } else {
   alert('Correct! My favorite is Americone Dream.');
-
+}
 var germany = prompt('Have I ever been to Germany?').toUpperCase();
 console.log(germany);
 if (germany === 'Y' || germany === 'YES' || germany === 'Yes') {
   alert('Yes! Munich! It\'s such a beautiful city!');
 } else {
   alert('Actually, yes, I have! Munich is amazing!');
+}
+*/
+
+var siblings = prompt('How many siblings do I have? Please only use numerical values.');
+console.log(siblings);
+/*if (siblings > 2) {
+  alert('Not quite. Try a little less!');
+  siblings();
+} else if (siblings < 2) {
+  alert('Not quite. Try a little more.');
+  siblings();
+} else if (siblings === 2){
+  alert('Correct!');
+
+}*/
+console.log(parseInt(siblings));
+while (siblings !== 2) {
+  if (siblings > 2) {
+
+    siblings = prompt('Not quite. Try a little less!');
+    console.log(siblings);
+    siblings = parseInt(siblings);
+  } else if (siblings < 2) {
+    siblings = prompt('Not quite. Try a little more.');
+    console.log(siblings);
+    siblings = parseInt(siblings);
+  } else if (siblings !== )
+  } else {
+    alert('Correct!');
+    console.log(siblings);
+    // siblings = parseInt(siblings);
+  } 
 }
