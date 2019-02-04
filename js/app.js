@@ -83,6 +83,6 @@ while (siblings !== 2) {
   } else {
     alert('Correct!');
     console.log(siblings);
-    // siblings = parseInt(siblings);
+    // siblings = parseInt(siblings); start here
   } 
 }
