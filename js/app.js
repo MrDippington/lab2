@@ -5,6 +5,7 @@ var counter = 0;
 var name = prompt('Hello! Thanks for visiting! What is your name, please?');
 console.log(name);
 //question 1
+
 function wa() {  
   var waNative = prompt('Hi, ' + name + '! Lets play a guessing game. Do you think I am a Washington native?').toUpperCase();
   console.log(waNative); 
@@ -117,3 +118,4 @@ function Europe() {
 Europe();
 
 alert('You got ' + counter + ' out of 7 correct! Nice work, ' + name + '!');
+
